@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+/* The section */
+.input-out{
+    display: flex;
+    width: 100%;
+}
+/* The display dif */
+.output{
+    width: 50%;
+    background-color: grey;
+    height: 540px;
+    margin: 10px;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+/* The text are for input */
+#input{
+    width: 100%;
+    resize: none;
+    height: 14.4cm;
+    background-color: rgb(189, 181, 181);
+    font-family: cursive;
+    color: white;
+    font-weight: 500;
+}
+/* The section containg the button */
+.functions{
+    background-color: gainsboro;
+    padding: 10px;
+}
+#run{
+    padding: 5px;
+    border-radius: 10px;
+    width: 20%;
+}
+/* The sapn element containing the tag brackets*/
+.bracket{
+    color: green;
+}
