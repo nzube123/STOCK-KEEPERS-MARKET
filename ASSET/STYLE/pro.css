@@ -1,0 +1,25 @@
+.upgrade_options{
+    font-family: Agency FB;
+    display: flex;
+}
+/* first div inside the upgrade_options */
+.upgrade_div1{
+    width: 24%;
+    padding: 10px;
+    border: 2px solid black;
+    margin-right: 5cm;
+    margin-left: 2cm;
+}
+
+.upgrade_div2{
+    width: 24%;
+    padding: 10px;
+    border: 2px solid black;
+    margin-right: 5cm;
+}
+
+.upgrade_div3{
+    width: calc(100/3);
+    padding: 10px;
+    border: 2px solid black;
+}

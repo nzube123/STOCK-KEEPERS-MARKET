@@ -1,0 +1,147 @@
+/* RESPOINSIVENESS TO OTHER SCRREN SIZES */
+@media screen and (max-width : 480px) {
+    body{
+        width: 100%;
+    }
+    /* business name space */
+    #business_name{
+        padding: 10px;
+        border-bottom: 2px solid black;
+        margin: none;
+        height: 1.5pc;
+    }
+    /* welcome section */
+    .welcome_message{
+        display: flex;
+        box-shadow: 1px 1px 3px 1px black;
+        position: relative;
+        height: 150px;
+    }
+    /* image on the welcome section (and all other images that needs ammendment) */
+    #image_logo{
+        width: 100%;
+        height: 130px;
+    }
+    .icon_image{
+        width: 100%;
+        height: 100%;
+    }
+    /* end of all images that need setting */
+
+
+    /* divs inside the first/second section */
+    .text{
+        width: 50%;
+    }
+    /* the div containing text */
+    .message{
+        font-size: 10px;
+        font-family: Agency FB;
+        line-height: 1.5pc;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+       
+    /* second section contain9ng the main info like news, view record*/
+    .main_info{
+        display: flex;
+        padding: 5px;
+    }
+    /* divs inside the section */
+    .div_info{
+        width: 50%;
+        height: 250px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 8px 1px brown;
+        margin-left: 10px;
+    }
+    
+    /* h2 element on the first/Second div */
+    .news_caption{
+        font-family: Agency FB;
+        text-align: center;
+        padding: 1px;
+    }
+    /* div inside the first div containing two other divs */
+    .div_info_cont{
+        display: flex;
+    }
+    
+    /* div inside the first and second containing only text */
+    .div_info_text{
+        padding-top: 1px;
+        padding-left: 20px;
+        height: 150px;
+    }
+    /*  div inside the first and second containing only text  (second name giving to this div in the second div) */
+    .market_text{
+        padding-top: 60px;
+    }
+    .div_info_text > p{
+        font-family: Agency FB;
+        font-size: 18px;
+    }
+    
+    /* second name giving to the second div incase of individual  */
+    .market{
+        height: 252px;
+    }
+    
+    /* second section having only one div */
+    .section_two{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* only div in section two */
+    .business{
+        height: fit-content;
+    }
+    /* last div before footer */
+    .forex{
+        height: 275px;
+    }
+    
+    
+    /* bottom nav bar */
+    .bottom_nav_con{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0px;
+        background-color: #8d1d1d;
+        position: fixed;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 43.5%;
+        border-radius: 20px;
+    }
+    /* unordered list */
+    .bottom_nav_con_ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ul_list{
+       list-style: none;
+        font-weight: 100;
+        font-size: 20px;
+        padding: 0px 30px;
+    }
+    
+    .ul_list > a{
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+        font-family: Agency FB;
+    }
+    
+    /* footer container */
+    .footer_cont{
+        display: flex;
+    }
+}  
