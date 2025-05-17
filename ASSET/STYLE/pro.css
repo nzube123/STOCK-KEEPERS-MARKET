@@ -7,7 +7,7 @@
     width: 24%;
     padding: 10px;
     border: 2px solid black;
-    margin-right: 5cm;
+    margin-right: 3cm;
     margin-left: 2cm;
 }
 
@@ -15,11 +15,104 @@
     width: 24%;
     padding: 10px;
     border: 2px solid black;
-    margin-right: 5cm;
+    margin-right: 3cm;
 }
 
 .upgrade_div3{
     width: calc(100/3);
     padding: 10px;
     border: 2px solid black;
+}
+
+.upgrade{
+   background-color: brown;
+   padding: 2px 100px;
+   text-decoration: none;
+   color: black;
+   font-family: Agency FB;
+   font-weight: 700;
+   font-size: 20px;
+   border-radius: 5px;
+   margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS RESPONSIVE PAGE */
+@media screen and (max-width : 480px) {
+    
+/* SECTION CONTAINING UPGRADE OPTIONS */
+    .upgrade_options{
+        font-family: Agency FB;
+        display: block;
+        width: 100%;
+    }
+    /* first div inside the upgrade_options */
+    .upgrade_div1{
+        width: 100%;
+        padding: 3px;
+        border: 1px solid black;
+        margin: 0%;
+    }
+    
+    .upgrade_div2{
+        width: 100%;
+        padding: 3px;
+        border: 1px solid black;
+        margin: 0%;
+    }
+    
+    .upgrade_div3{
+        width: 100%;
+        padding: 3px;
+        border: 1px solid black;
+        margin: 0%;
+    }
+    
+    .upgrade{
+       background-color: brown;
+       padding: 2px 100px;
+       text-decoration: none;
+       color: black;
+       font-family: Agency FB;
+       font-weight: 700;
+       font-size: 20px;
+       border-radius: 5px;
+       margin-top: 200px;
+    }
+    /* image on every upgrade option */
+    .image{
+        width: 100%;
+    }
+
+    /* welcome message  */
+    .welcome_message{
+        width: 100%;
+    }
 }

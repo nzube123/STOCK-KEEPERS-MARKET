@@ -1,0 +1,63 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+}
+/* header 1 element */
+h1{
+  font-size: 600%;
+  text-align: center;
+  font-family: Agency FB;
+}
+/* table caption */
+caption{
+  font-family: Agency FB;
+  font-size: 20px;
+}
+button{
+  width: 80%;
+  padding: 10px;
+  font-size: 13.5px;
+  display: block;
+  border-radius: 10px;
+  /* background-color: #8d1d1d; */
+  margin: 6px;
+  margin-top: 160px;
+  border: none;
+  box-shadow: 2px 2px 7px 2px black;
+  font-family: Agency FB;
+}
+  /* aside button */
+.aside-button{
+    position: fixed;
+    width: 12%;
+    height: 700px;
+    padding: 5px;
+    border-top-right-radius: 20px;
+}
+  /* table styling */
+table{
+    margin-left: 5cm;
+    width: 80%;
+    margin-top: 20px;
+}
+  /* entire table, table-row, table-column, table-data */
+table, tr, th, td{
+    border: 1px solid black;
+    border-radius: 2px;
+    border-collapse: collapse;
+    padding: 10px;
+    resize: none;
+    word-wrap: break-word;
+    font-family: Agency FB;
+}
+tr, th, td{
+  width: 20%;
+}
+
+
+
+
