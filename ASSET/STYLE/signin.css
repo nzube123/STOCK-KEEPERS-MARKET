@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -7,7 +7,7 @@ body{
     width: 100%;
 }
 /* bottom nav bar */
-.bottom_nav_con{
+/* .bottom_nav_con{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,9 +18,9 @@ body{
     margin-left: 25%;
     margin-top: 43.2%;
     border-radius: 20px;
-}
+} */
 /* unordered list */
-.bottom_nav_con_ul{
+/* .bottom_nav_con_ul{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,18 +38,21 @@ body{
     text-decoration: none;
     font-weight: 700;
     font-family: Agency FB;
-}
+} */
 
 
 
 /* form */
+/* form{
+    width: 100%;
+}
 fieldset{
     padding: 10px;
     border: 1px solid black;
     width: 45%;
-    margin-left: 12cm;
+    margin-left: 10cm;
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 legend{
     font-family: Agency FB;
@@ -65,10 +68,65 @@ legend{
     font-size: 15px;
 }
 /* textarea  */
-textarea{
+/* textarea{
     border-radius: 10px;
     padding: 10px;
     font-family: Agency FB;
     font-size: larger;
     resize: none;
+    margin-bottom: 20px;
+} */ 
+/* submit button */
+/* #verify{
+    padding: 10px;
+    font-family: Agency FB;
+    font-size: 15px;
+    border: 1px solid green;
+    border-radius: 7px;
+    background: none;
+} */
+/* reset button */
+/* #cancle{
+    float: right;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 7px;
+    font-family: Agency FB;
+    font-size: 15px;
+    background: none;
+} */
+
+
+
+/* marquee inside the header tag */
+/* marquee{
+    margin-left: 8cm;
+    margin-top: 10px;
+    margin-right: 8cm;
+    font-family: Agency FB;
+    font-size: 30px;
+} */ 
+
+
+
+
+
+
+
+
+
+
+/* NEW STYLING FOR NEW FORM STYLE */
+#form{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
 }

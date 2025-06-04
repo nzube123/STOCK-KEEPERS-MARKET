@@ -19,7 +19,9 @@
             <li class="ul_list"><a href="signin.html">Signin</a></li>
         </ul>
      </nav>
-
+     <header>
+        <marquee behavior="scroll" direction="right">SIGNIN IN OTHER TO  SAFEGAURD YOUR RECORDS</marquee>
+     </header>
      <!-- form tag  -->
       <fieldset>
         <legend>STOCK KEEPERS MARKET</legend>
@@ -28,9 +30,10 @@
             <input type="text" placeholder="LAST NAME" class="input text" required>
             <input type="text" placeholder="BUSINESS NAME" class="input text" required>
             <input type="date" placeholder="DATE OF BIRTH" class="input text" required>
-            <input type="password" placeholder="PASSWORD" class="input text" maxlength="10">
-            <textarea name="" id="" placeholder="ADDRESS AND LOCATION"></textarea>
-            <button type="button">submit</button>
+            <input type="password" placeholder="PASSWORD" class="input text" maxlength="10" required>
+            <textarea name="" id="" cols="115" placeholder="ADDRESS AND LOCATION"></textarea>
+            <button type="button" id="verify">SUBMIT</button>
+            <button type="reset" id="cancle">Cancle</button>
           </form>
       </fieldset>
 </body>
